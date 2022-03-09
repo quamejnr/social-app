@@ -36,3 +36,4 @@ class Database:
             except Exception as error:
                 print('Connecting to database failed.\nError', error)
                 time.sleep(2)
+        

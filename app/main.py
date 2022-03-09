@@ -9,8 +9,8 @@ app = FastAPI()
 
 
 # Initialize database
-database = Database()
-conn = database.connect()
+db = Database()
+conn = db.connect()
 cursor = conn.cursor()
 
 
